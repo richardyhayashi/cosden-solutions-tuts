@@ -1,6 +1,6 @@
-import ContextDemo from "./components/ContextDemo";
+//import ContextDemo from "./components/ContextDemo";
 //import FetchDemo from "./components/FetchDemo";
-//import ReactQueryDemo from "./components/ReactQueryDemo";
+import ReactQueryDemo from "./components/ReactQueryDemo";
 
 function App() {
   return (
