@@ -9,7 +9,7 @@ interface Post {
    body: string;
 }
 
-const Demo = () => {
+const FetchDemo = () => {
    const [error, setError] = useState();
    const [isLoading, setIsLoading] = useState(false);
    const [posts, setPosts] = useState<Post[]>([]);
@@ -67,6 +67,6 @@ const Demo = () => {
          )}
       </div>
    );
-}
+};
 
-export default Demo
+export default FetchDemo;
